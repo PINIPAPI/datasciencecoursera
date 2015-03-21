@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is the secong HW and is about Lexical scope
+## Calculates the inverse of a matrix and cache the result
 
-## Write a short comment describing this function
+## The first function creates a matrix and a serie of functions to 
+## calculate the inverse of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
        inv <- NULL
@@ -18,7 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function takes the result cached from the first funtion and if the 
+## result is not cached, it calculates the inverse of a matrix a cache the 
+## result
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
